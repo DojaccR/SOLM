@@ -1,0 +1,15 @@
+Rules for creation of the worldbuilder tool.
+
+The worldbuilder tool will act as an easy way to create concrete classes of 
+objects and spaces. It will do auto code generation. Some rules ought to be
+put in place for how this code will be generated. 
+
+Naming Conventions:
+Any object will need a name and a surname. Its surname will be either the
+space in which it exists or its parent class, whichever makes it unique with
+the preference given to space.
+
+File Location:
+Objects will be grouped by surname for organization. An added index file
+will accompany the system to aid searching operations which needs to be changed
+on generation of a new class.
